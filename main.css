@@ -1,26 +1,45 @@
 header#masthead{
 	text-align: center;
+	margin-top:5em;
 }
 
 header#masthead .site-title{
 	font-size: 5em;
 	
 }
-header#masthead .site-title a{
-	font-color: #333;
+header#masthead .site-title a,
+header#masthead .site-title a:visited{
+	color: #333;
 	text-decoration: none;
+}
+header#masthead .site-title a:hover{
+	text-decoration:underline;
+}
+
+nav .menu{
+	margin: 0 auto;
+	display:table;
+}
+nav .menu ul{
+	list-style: none;
+}
+nav .menu ul li{
+	color: red;
+	margin: 1px 2px;
+	border: 1px solid #CCC;
+	background-color: #777;
+	display: inline;
 }
 
 
 #main{
 	margin: 5em auto;
 	max-width: 45em;
-	font-family:  Georgia, Cambria, 'Liberation Serif', 'Bitstream Charter', serif;
 }
 
 /* Post Entry */
 article.hentry{
-	margin-bottom: 5em;
+	margin-bottom: 3em;
 }
 
 /* Entry header */

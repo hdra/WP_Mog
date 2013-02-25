@@ -99,7 +99,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family:  Georgia, Cambria, 'Liberation Serif', 'Bitstream Charter', serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
