@@ -1,0 +1,63 @@
+header#masthead{
+	text-align: center;
+}
+
+header#masthead .site-title{
+	font-size: 5em;
+	
+}
+header#masthead .site-title a{
+	font-color: #333;
+	text-decoration: none;
+}
+
+
+#main{
+	margin: 5em auto;
+	max-width: 45em;
+	font-family:  Georgia, Cambria, 'Liberation Serif', 'Bitstream Charter', serif;
+}
+
+/* Post Entry */
+article.hentry{
+	margin-bottom: 5em;
+}
+
+/* Entry header */
+.entry-header{
+	text-align: center;
+}
+.entry-header a{
+	text-decoration: none;
+	color: #000;
+}
+.entry-header a:hover{
+	color: #333;
+	text-decoration: underline;
+}
+/** Entry Title */
+.entry-header h1{
+	font-size: 1.8em;
+}
+/** Entry meta */
+.entry-header .entry-meta{
+	font-size: 0.7em;
+}
+
+/* Entry content*/
+article .entry-content{
+	text-align: justify;
+}
+
+/* Entry footer */
+article footer{
+	font-size: 0.8em;
+}
+article footer a{
+	color: #333;
+	text-decoration: none;
+}
+article footer a:hover{
+	color: #333;
+	text-decoration: underline;
+}
