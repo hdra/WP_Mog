@@ -1,11 +1,13 @@
 header#masthead{
 	text-align: center;
-	margin-top:5em;
+	padding-top:3.5em;
+	background-color: #D1D1D1;
 }
-
+header#masthead hgroup{
+	padding-bottom: 1em;
+}
 header#masthead .site-title{
 	font-size: 5em;
-	
 }
 header#masthead .site-title a,
 header#masthead .site-title a:visited{
@@ -15,20 +17,33 @@ header#masthead .site-title a:visited{
 header#masthead .site-title a:hover{
 	text-decoration:underline;
 }
+header#masthead .site-description{
+	color: #777;
+	font-style: italic;
+}
 
+nav .site-navigation{
+	background-color: yellow;
+}
 nav .menu{
+	font-size: 1.3em;
 	margin: 0 auto;
 	display:table;
 }
 nav .menu ul{
 	list-style: none;
+	text-align: center;
+	padding-top: 1px;
 }
 nav .menu ul li{
-	color: red;
-	margin: 1px 2px;
-	border: 1px solid #CCC;
-	background-color: #777;
-	display: inline;
+	margin: 1.5px 1em;
+}
+nav .menu ul a{
+	text-decoration: none;
+	color: #333;
+}
+nav .menu ul a:hover{
+	text-decoration: underline;
 }
 
 
@@ -66,6 +81,24 @@ article.hentry{
 /* Entry content*/
 article .entry-content{
 	text-align: justify;
+}
+article h1{
+	font-size: 1.65em;
+}
+article h2{
+	font-size: 1.5em;
+}
+article h3{
+	font-size: 1.45em;
+}
+article h4{
+	font-size: 1.3em;
+}
+article h5{
+	font-size: 1.2em;
+}
+article h6{
+	font-size: 1.1em;
 }
 
 /* Entry footer */
