@@ -115,6 +115,13 @@ article h6{
 	border-top: 1px solid #AAA;
 }
 
+#search{
+	text-align: center;
+	float: none;
+	width: auto;
+	margin-bottom: 1.5em;
+}
+
 aside.widget{
 	width: 13em;
 	float: left;
