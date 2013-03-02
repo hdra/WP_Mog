@@ -21,9 +21,6 @@ header#masthead .site-description{
 	font-style: italic;
 }
 
-header nav .site-navigation{
-}
-
 header nav .menu{
 	font-size: 1.3em;
 	margin: 0 auto;
@@ -34,6 +31,7 @@ header nav .menu{
 header nav .menu ul{
 	list-style: none;
 	text-align: center;
+	margin: 0;
 }
 header nav .menu ul li{
 	padding: 5px 1em;
@@ -52,6 +50,10 @@ header nav .menu ul a{
 header nav .menu ul a:hover{
 	text-decoration: underline;
 	color: #eee;
+}
+.menu-toggle{
+	font-size: 2em;
+	background-color: #AAA;
 }
 
 /* Primary Post area */
