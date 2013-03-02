@@ -1,7 +1,6 @@
 header#masthead{
 	text-align: center;
 	padding-top:3.5em;
-	background-color: #D1D1D1;
 }
 header#masthead hgroup{
 	padding-bottom: 1em;
@@ -24,6 +23,7 @@ header#masthead .site-description{
 
 header nav .site-navigation{
 }
+
 header nav .menu{
 	font-size: 1.3em;
 	margin: 0 auto;
@@ -110,7 +110,17 @@ article h6{
 
 /* Secondary area */
 #secondary{
-	background-color: #CCC;
+	margin: auto 10%;
+	padding: 2em 0;
+	border-top: 1px solid #AAA;
+}
+
+aside.widget{
+	width: 13em;
+	float: left;
+	margin: 0 1em 0 0;
+	padding: 5px;
+
 }
 
 
@@ -125,4 +135,12 @@ article footer a{
 article footer a:hover{
 	color: #333;
 	text-decoration: underline;
+}
+
+
+/* Page Footer */
+#colophon .site-info{
+	padding-right: 10%;
+	float: right;
+	font-size: 0.8em;
 }

@@ -30,5 +30,7 @@
 					</ul>
 				</aside>
 
+				<div style="clear:both;"></div>
+
 			<?php endif; // end sidebar widget area ?>
 		</div><!-- #secondary .widget-area -->
