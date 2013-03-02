@@ -306,16 +306,16 @@ textarea {
 
 /* Links */
 a {
-	color: #544B1C;
+	color: #EB8B21;
 	text-decoration: none;
 }
 a:visited {
-	color: #5E4B17;
+	color: #A45E0F;
 }
 a:hover,
 a:focus,
 a:active {
-	color: #85C6D6;
+	color: #228C80;
 	text-decoration: underline;
 }
 
