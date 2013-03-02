@@ -28,6 +28,10 @@ header nav .menu{
 	font-size: 1.3em;
 	margin: 0 auto;
 	display:table;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 header nav .menu ul{
 	list-style: none;
