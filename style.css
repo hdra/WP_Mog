@@ -46,7 +46,7 @@ html {
 	-ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 body {
-	background: #fff;
+	background: #F5F5F5;
 }
 article,
 aside,
@@ -99,7 +99,7 @@ input,
 select,
 textarea {
 	color: #404040;
-	font-family:  Georgia, Cambria, 'Liberation Serif', 'Bitstream Charter', serif;
+	font-family: 'Open Sans', 'Helvetica', 'Segoe', sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;

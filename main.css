@@ -10,6 +10,7 @@ header#masthead .site-title{
 }
 header#masthead .site-title a,
 header#masthead .site-title a:visited{
+	font-family: 'Josefin Slab', 'Cambria', 'Georgia' serif;
 	color: #333;
 	text-decoration: none;
 }
@@ -56,6 +57,12 @@ header nav .menu ul a:hover{
 	background-color: #AAA;
 }
 
+.page-header{
+	padding-left: 1em;
+	font-size: 1.2em;
+	margin-bottom: 1.4em;
+}
+
 /* Primary Post area */
 #primary{
 	margin: 5em auto;
@@ -92,6 +99,16 @@ article.hentry{
 /* Entry content*/
 article .entry-content{
 	text-align: justify;
+}
+article .entry-content blockquote{
+	font-style: italic;
+	font-size: 0.9em;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	background-color: #F0F0F0;
+}
+article .entry-content .cite{
+	font-size: 0.9em;
 }
 article h1{
 	font-size: 1.65em;
