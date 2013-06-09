@@ -371,7 +371,7 @@ a:active {
 	display: none;
 	float: left;
 	position: absolute;
-		top: 1.5em;
+		top: 1.8em;
 		left: 0;
 	z-index: 99999;
 }
@@ -383,6 +383,7 @@ a:active {
 	width: 200px;
 }
 .main-navigation ul ul li {
+	background-color: #F5F5F5;
 }
 .main-navigation li:hover > a {
 }
