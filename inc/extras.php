@@ -77,3 +77,10 @@ function mog_wp_title( $title, $sep ) {
 	return $title;
 }
 add_filter( 'wp_title', 'mog_wp_title', 10, 2 );
+
+
+
+function fallback_nav($args){
+	$args['menu_class'] = $args['container_class'];
+	wp_page_menu($args);
+}
