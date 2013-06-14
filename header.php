@@ -18,8 +18,14 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-
 <?php wp_head(); ?>
+<?php
+//TODO: AWFUL CODE SMELL. CLEAN UP
+function fallback_nav($args){
+	$args['menu_class'] = $args['container_class'];
+	wp_page_menu($args);
+}
+?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -35,7 +41,10 @@
 			<h1 class="assistive-text"><?php _e( 'Menu', 'mog' ); ?></h1>
 			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'mog' ); ?>"><?php _e( 'Skip to content', 'mog' ); ?></a></div>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary',
+									  'container_class' => 'menu',
+									  'menu_class' => '',
+									  'fallback_cb' => 'fallback_nav') ); ?>
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->
 
