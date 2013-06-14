@@ -16,7 +16,7 @@
 			<?php do_action( 'mog_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'mog' ); ?>" rel="generator"><?php printf( __( 'running on %s', 'mog' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'mog' ), '<a href="https://github.com/hdra/WP_Mog" rel="theme">mog</a>', '<a href="http://hndr.me/" rel="designer">hndr</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'mog' ), 'Mog', '<a href="http://hndr.me/" rel="designer">hndr</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
