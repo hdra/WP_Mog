@@ -101,6 +101,8 @@ function mog_comment( $comment, $args, $depth ) {
 					<?php edit_comment_link( __( '(Edit)', 'mog' ), ' ' );
 					?>
 				</div><!-- .comment-meta .commentmetadata -->
+
+				<div style="clear:both;"></div>
 			</footer>
 
 			<div class="comment-content"><?php comment_text(); ?></div>

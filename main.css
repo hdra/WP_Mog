@@ -165,6 +165,59 @@ article footer a:hover{
 	text-decoration: underline;
 }
 
+/* comments */
+.comments-title{
+	margin: 1em 0 2em;
+}
+
+.commentlist{
+	list-style: none;
+	margin: 0 1em 1.5em;
+}
+
+.commentlist li{
+	margin: 0.5em 0;
+	padding: 0.2em 0.6em;
+	background-color: #efefef;
+}
+
+.comment .avatar{
+	border-radius: 20px;
+	vertical-align: middle;
+}
+
+.comment footer{
+	margin: 1em 0;
+}
+
+.comment-author{
+	float:left;
+}
+.comment-meta{
+	float:right;
+}
+.comment-content{
+	clear: both;
+}
+.reply{
+	text-align: right;
+}
+
+#respond{
+	margin-top: 2em;
+	padding: 0 3em;
+}
+#respond h3{
+	font-size: 1.5em;
+}
+.form-allowed-tags,
+.form-allowed-tags abbr,
+.form-allowed-tags code {
+	font-size: 0.8em;
+}
+.form-submit{
+	text-align: right;
+}
 
 /* Page Footer */
 #colophon .site-info{
