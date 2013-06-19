@@ -67,6 +67,7 @@ header nav .menu ul a:hover{
 #primary{
 	margin: 5em auto;
 	max-width: 45em;
+	padding: 0 8px;
 }
 
 /* Post Entry */
