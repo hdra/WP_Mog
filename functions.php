@@ -65,9 +65,9 @@ function mog_setup() {
 	add_theme_support( 'automatic-feed-links' );
 
 	/**
-	 * Enable support for Post Thumbnails
+	 * support for custom background
 	 */
-	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'custom-background' );
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.
