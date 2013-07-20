@@ -14,7 +14,7 @@
  * @since Mog 1.0
  */
 function mog_page_menu_args( $args ) {
-	$args['show_home'] = true;
+	$args['show_home'] = false;
 	return $args;
 }
 add_filter( 'wp_page_menu_args', 'mog_page_menu_args' );
