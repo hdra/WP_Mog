@@ -135,21 +135,16 @@ article h6{
 	margin: auto 10%;
 	padding: 2em 0;
 	border-top: 1px solid #AAA;
-}
-
-#search{
 	text-align: center;
-	float: none;
-	width: auto;
-	margin-bottom: 1.5em;
 }
 
 aside.widget{
 	width: 13em;
-	float: left;
 	margin: 0 1em 0 0;
 	padding: 5px;
-
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
 }
 
 
