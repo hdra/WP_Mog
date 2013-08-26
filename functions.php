@@ -70,6 +70,11 @@ function mog_setup() {
 	add_theme_support( 'custom-background' );
 
 	/**
+	 * support for header image
+	 */
+	add_theme_support( 'custom-header' );
+
+	/**
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
