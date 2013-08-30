@@ -28,11 +28,12 @@
 		<hgroup>
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php if( get_header_image() != '' ): ?>
-						<img src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>"/>
-					<?php else: ?>
-						<?php bloginfo('name'); ?>
+					<?php
+						$header_image = get_header_image();
+						if ( ! empty( $header_image ) ): ?>
+							<img src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>"/>
 					<?php endif; ?>
+					<div class="header-title"><?php bloginfo('name'); ?></div>
 				</a>
 			</h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>

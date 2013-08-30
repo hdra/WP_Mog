@@ -70,11 +70,6 @@ function mog_setup() {
 	add_theme_support( 'custom-background' );
 
 	/**
-	 * support for header image
-	 */
-	add_theme_support( 'custom-header' );
-
-	/**
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
@@ -161,4 +156,4 @@ add_action( 'wp_enqueue_scripts', 'mog_scripts' );
 /**
  * Implement the Custom Header feature
  */
-//require( get_template_directory() . '/inc/custom-header.php' );
+require( get_template_directory() . '/inc/custom-header.php' );

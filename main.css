@@ -10,7 +10,7 @@ header#masthead .site-title{
 }
 header#masthead .site-title a,
 header#masthead .site-title a:visited{
-	font-family: 'Josefin Slab', 'Cambria', 'Georgia' serif;
+	font-family: 'Josefin Slab', 'Cambria', 'Georgia', serif;
 	color: #333;
 	text-decoration: none;
 }
