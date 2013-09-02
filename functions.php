@@ -139,7 +139,7 @@ function mog_scripts() {
 	wp_enqueue_style( 'opensans', 'http://fonts.googleapis.com/css?family=Open+Sans');
 	wp_enqueue_style( 'josefinslab', 'http://fonts.googleapis.com/css?family=Josefin+Slab:600');
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
-    wp_enqueue_style( 'main', get_template_directory_uri() . '/main.css' );
+    wp_enqueue_style( 'mog-main', get_template_directory_uri() . '/mog-main.css' );
 
 	wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), '20120206', true );
 
