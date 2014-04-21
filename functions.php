@@ -98,7 +98,7 @@ add_action( 'after_setup_theme', 'mog_setup' );
  */
 function mog_register_custom_background() {
 	$args = array(
-		'default-color' => 'ffffff',
+		'default-color' => 'F5F5F5',
 		'default-image' => '',
 	);
 
