@@ -136,8 +136,8 @@ add_action( 'widgets_init', 'mog_widgets_init' );
  * Enqueue scripts and styles
  */
 function mog_scripts() {
-	wp_enqueue_style( 'opensans', 'http://fonts.googleapis.com/css?family=Open+Sans');
-	wp_enqueue_style( 'josefinslab', 'http://fonts.googleapis.com/css?family=Josefin+Slab:600');
+	wp_enqueue_style( 'opensans', '//fonts.googleapis.com/css?family=Open+Sans');
+	wp_enqueue_style( 'josefinslab', '//fonts.googleapis.com/css?family=Josefin+Slab:600');
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
     wp_enqueue_style( 'mog-main', get_template_directory_uri() . '/mog-main.css' );
 
