@@ -572,3 +572,7 @@ object {
 .infinity-end.neverending #colophon {
 	display: block;
 }
+
+.site-footer, .widget-area {
+	clear: both;
+}
