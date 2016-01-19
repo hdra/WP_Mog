@@ -222,3 +222,8 @@ article footer a:hover{
 	font-size: 0.8em;
 	margin-bottom: 10px;
 }
+
+/* Fix for bug with footer not clearing floated elements */
+.site-footer, .widget-area {
+	clear: both;
+}
